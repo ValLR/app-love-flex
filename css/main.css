@@ -63,7 +63,7 @@ body {
 }
 
 #home h1{
-	font-size:35px;
+	font-size:39px;
 	margin-bottom:5px;
 }
 
@@ -84,5 +84,34 @@ body {
 	font-weight: bolder;
 	color:whitesmoke;
 	font-size: 120%;
+}
+/*Services*/
+#services{
+	background-color:#f17c72;
+	text-align: center;
+	color: #fff;
+	padding:70px;
+}
 
+#services img{
+	width:200px;
+}
+
+.box-services{
+	font-size: 1.2em;
+	font-weight: bold;
+	margin: auto 60px;
+}
+
+#services.flex-container{
+	flex-wrap:wrap;
+	justify-content: center;
+}
+#services h2{
+	font-size:33px;
+}
+#services h4{
+	font-weight: normal;
+	font-weight: bold;
+	margin-bottom: 50px;
 }
