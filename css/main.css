@@ -115,3 +115,45 @@ body {
 	font-weight: bold;
 	margin-bottom: 50px;
 }
+/*work*/
+#work{
+	text-align: center;
+	padding: 70px;
+}
+#work.flex-container{
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	
+
+}
+.work-img{
+	width: 80%;
+	margin-top: 50px;
+}
+.box-work{
+	margin-top: 70px;
+}
+.box{
+	margin-left: 40px;
+}
+.box h3{
+	font-weight: 400;
+}
+#work.box-work{
+	justify-content: space-around;
+}
+.box img{
+	width: 300%;
+}
+/*Footer*/
+footer{
+	background-color: #373B47;
+	color:white;
+	padding:2px;
+	align-content: center;
+	font-weight: normal;
+}
+footer.flex-container{
+	justify-content: center;
+}
